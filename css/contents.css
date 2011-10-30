@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+
+#s1 {
+	background-color: hotpink;
+}
+#s2 {
+	background-color: goldenrod;
+}
+#s3 {
+	background-color: forestgreen;
+}
+#s4 {
+	background-image: url('../assets/egimg.jpg');
+	background-size: cover;
+}
+#s5 {
+	background-color: black;
+}
+#s6 {
+	background-color: slategrey;
+}
+#s7 {
+	background-color: saddlebrown;
+}
+#s8 {
+	background-color: royalblue;
+}
+#s9 {
+	background-color: white;
+}

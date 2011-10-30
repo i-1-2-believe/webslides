@@ -1,0 +1,90 @@
+@CHARSET "UTF-8";
+
+/*Background*/
+html {
+	height: 100%; 
+	width: 100%; 
+	background-color: #C2C2C2;
+}
+body {
+	position: absolute; 
+	height: 100%; 
+	width: 100%; 
+	margin: 0px; 
+	overflow: hidden;
+	font-size: 100%;
+}
+
+/*Navigation*/
+.touch {
+	position: relative; 
+	z-index: 1000;
+	height: 100%; 
+	width: 20%; 
+	background-color:; 
+	opacity:0.4; 
+	/*Internet Explorer*/
+	filter:alpha(opacity=40);
+}
+#touch-left {
+	float: left; 
+}
+#touch-right {
+	float: right;
+}
+
+/*Slide*/
+.slide {
+	position: absolute; 
+	height: 86%; 
+	width: 66%;
+	padding: 1%; 
+	background-color: white; 
+	transition: left 0.5s ease-in-out;
+	box-shadow: 5px 5px 25px #7A7A7A;
+	border-radius: 10px;
+	/*Gecko*/
+	-moz-transition: left 0.5s ease-in-out;
+	-moz-box-shadow: 5px 5px 25px #7A7A7A;
+	-moz-border-radius: 10px;
+	/*Webkit*/
+	-webkit-transition: left 0.5s ease-in-out;
+	-webkit-box-shadow: 5px 5px 25px #7A7A7A;
+	-webkit-border-radius: 10px;
+	/*Opera*/
+	-o-transition: left 0.5s ease-in-out;
+	-o-box-shadow: 5px 5px 25px #7A7A7A;
+	-o-border-radius: 10px; 
+}
+.slide-previous {
+	top: 5%; 
+	left: -60%;
+}
+.slide-previous-2 {
+	top: 5%; 
+	left: -130%;
+}
+.slide-current {
+	top: 5%; 
+	left: 15%;
+}
+.slide-next {
+	top: 5%; 
+	left: 90%;
+}
+.slide-next-2 {
+	top: 5%; 
+	left: 160%;
+}
+.slide-hidden {
+	display: none;
+}
+
+/*Stationary*/
+.title {
+	font: bold 4em hellvetica, arial;
+}
+.source {
+	font: 1em hellvetica, arial;
+	color: white;
+}
